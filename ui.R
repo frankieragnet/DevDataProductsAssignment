@@ -8,7 +8,6 @@ shinyUI(pageWithSidebar(
       sliderInput('wt', 'Weight (kg)', value = 50, min = 30, max = 200, step = 1),
       numericInput('age','Age', 20, min = 10, max = 120, step = 1),      
       numericInput('npreg','Number of pregnancies', 0, min = 0, max = 20, step = 1)
-#      selectInput('var', label=h3("Select variable to compare to training population"), choices = list("Glucose Reading" = 1, "Body Mass Index" =2, "Number of pregnancies" = 3, "Age" = 4), selected = 3)
 #     , submitButton('Submit')
   ),
   mainPanel(
